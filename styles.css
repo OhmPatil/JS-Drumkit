@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 500px;
+    gap: 25px;
+}
+
+.key{
+    display: flex;
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+kbd{
+    font-size: 35px;
+}
