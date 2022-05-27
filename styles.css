@@ -1,20 +1,32 @@
+body{
+    background: black;
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
     height: 500px;
-    gap: 25px;
+    gap: 30px;
 }
 
 .key{
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
-    height: 100px;
-    width: 100px;
     align-items: center;
     justify-content: center;
+    border: 2px solid blue;
+    border-radius: 15px;
+    transition: all 0.1s;
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+.playing{
+    transform: scale(1.2);
+    border: 3px solid red;
+    box-shadow: 0px 0px 50px inset pink;
 }
 
 kbd{
@@ -26,6 +38,6 @@ kbd{
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    
+
     /* border: 2px solid red; */
 }
