@@ -9,6 +9,7 @@
 
 .key{
     display: flex;
+    flex-direction: column;
     border: 2px solid blue;
     height: 100px;
     width: 100px;
@@ -18,4 +19,13 @@
 
 kbd{
     font-size: 35px;
+}
+
+.sound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+    /* border: 2px solid red; */
 }
